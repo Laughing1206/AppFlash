@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuideViewControrller">
+            <connections>
+                <outlet property="bgView" destination="J0G-Cz-Jfm" id="5xg-7k-Mda"/>
+                <outlet property="imageView" destination="dlk-CM-3LD" id="fG9-pc-zxw"/>
+                <outlet property="logoImg" destination="uzj-CJ-CmC" id="EU7-CU-7eV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lead-640-1136-pic01" translatesAutoresizingMaskIntoConstraints="NO" id="dlk-CM-3LD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="687"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J0G-Cz-Jfm">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我在烟台" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaO-Uc-ChQ">
+                            <rect key="frame" x="137" y="150" width="101.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天是12月5日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSg-dw-qiY">
+                            <rect key="frame" x="134" y="195" width="108" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每一个旅行地都好似与你发生恋情的某段记忆" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiJ-r0-Pe9">
+                            <rect key="frame" x="44" y="234.5" width="286" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="虽缠绵不断，却见好就收" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSp-Cm-ekT">
+                            <rect key="frame" x="109" y="256.5" width="157.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lv_setting_about_hangzhou" translatesAutoresizingMaskIntoConstraints="NO" id="Qao-Cs-htd">
+                            <rect key="frame" x="148" y="313.5" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="JVD-65-efQ"/>
+                                <constraint firstAttribute="height" constant="80" id="YJt-og-Dli"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="zSp-Cm-ekT" firstAttribute="centerX" secondItem="J0G-Cz-Jfm" secondAttribute="centerX" id="5AJ-Tx-3Ec"/>
+                        <constraint firstItem="WaO-Uc-ChQ" firstAttribute="top" secondItem="J0G-Cz-Jfm" secondAttribute="top" constant="150" id="8Qo-db-YGf"/>
+                        <constraint firstItem="uiJ-r0-Pe9" firstAttribute="centerX" secondItem="J0G-Cz-Jfm" secondAttribute="centerX" id="8j9-bX-760"/>
+                        <constraint firstItem="zSp-Cm-ekT" firstAttribute="top" secondItem="uiJ-r0-Pe9" secondAttribute="bottom" constant="5" id="9CN-zB-o9J"/>
+                        <constraint firstItem="WaO-Uc-ChQ" firstAttribute="centerX" secondItem="J0G-Cz-Jfm" secondAttribute="centerX" id="KLH-uA-Kpt"/>
+                        <constraint firstItem="Qao-Cs-htd" firstAttribute="centerX" secondItem="J0G-Cz-Jfm" secondAttribute="centerX" id="ORu-rK-gmg"/>
+                        <constraint firstItem="Qao-Cs-htd" firstAttribute="top" secondItem="zSp-Cm-ekT" secondAttribute="bottom" constant="40" id="U5c-F0-SKh"/>
+                        <constraint firstItem="jSg-dw-qiY" firstAttribute="centerX" secondItem="J0G-Cz-Jfm" secondAttribute="centerX" id="d4u-Jy-fmx"/>
+                        <constraint firstItem="jSg-dw-qiY" firstAttribute="top" secondItem="WaO-Uc-ChQ" secondAttribute="bottom" constant="15" id="hpq-ms-EAY"/>
+                        <constraint firstItem="uiJ-r0-Pe9" firstAttribute="top" secondItem="jSg-dw-qiY" secondAttribute="bottom" constant="20" id="usX-ZN-TaP"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lvyou" translatesAutoresizingMaskIntoConstraints="NO" id="uzj-CJ-CmC">
+                    <rect key="frame" x="129.5" y="599" width="116" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="116" id="Fa1-Qv-vfd"/>
+                        <constraint firstAttribute="height" constant="38" id="Rqb-Y6-Rk1"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="J0G-Cz-Jfm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5sq-yX-gHS"/>
+                <constraint firstAttribute="trailing" secondItem="dlk-CM-3LD" secondAttribute="trailing" id="N67-oz-M70"/>
+                <constraint firstAttribute="bottom" secondItem="dlk-CM-3LD" secondAttribute="bottom" constant="-20" id="TbW-bW-PFg"/>
+                <constraint firstAttribute="trailing" secondItem="J0G-Cz-Jfm" secondAttribute="trailing" id="UN8-Xr-V0e"/>
+                <constraint firstItem="dlk-CM-3LD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="VXG-gD-km2"/>
+                <constraint firstItem="dlk-CM-3LD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aDx-bV-z9o"/>
+                <constraint firstAttribute="bottom" secondItem="J0G-Cz-Jfm" secondAttribute="bottom" constant="100" id="cw9-3w-QLJ"/>
+                <constraint firstItem="uzj-CJ-CmC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eXy-ao-WcF"/>
+                <constraint firstAttribute="bottom" secondItem="uzj-CJ-CmC" secondAttribute="bottom" constant="30" id="qSD-IV-9ie"/>
+                <constraint firstItem="J0G-Cz-Jfm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="veX-bf-aFo"/>
+            </constraints>
+            <point key="canvasLocation" x="78.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lead-640-1136-pic01" width="640" height="1136"/>
+        <image name="lv_setting_about_hangzhou" width="114" height="114"/>
+        <image name="lvyou" width="232" height="76"/>
+    </resources>
+</document>
